@@ -10,8 +10,8 @@ font-family: 'ProductSans'; */
 
 /* =================== header ========================= */
 .header__nav {
-    background: ;
-    padding: 10px 0;
+    background: #2f4f4f;
+    padding: 4px 0;
 }
 
 .header__nav_logo {
