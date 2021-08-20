@@ -15,7 +15,7 @@ font-family: 'ProductSans'; */
 }
 
 .header__nav_logo {
-    font-size: 26px;
+    font-size: 15px;
     color: #fff;
     font-family: 'ProductSans';
     text-transform: uppercase;
@@ -36,7 +36,7 @@ font-family: 'ProductSans'; */
 
 .header__list_link {
     font-family: 'ProductSans';
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     text-transform: uppercase;
     padding: 0;
