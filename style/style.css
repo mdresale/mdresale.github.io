@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* font-family: 'Montserrat-Regular';
+font-family: 'Montserrat-Bold';
+font-family: 'ProductSans'; */
+
+/* =================== header ========================= */
+.header__nav {
+    background: ;
+    padding :1 ;
+    margin: 1;
+}
+
+.header__nav_logo {
+    font-size: 26px;
+    color: #fff;
+    font-family: 'ProductSans';
+    text-transform: uppercase;
+    line-height: 20px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #fff, black);
+    border-image-slice: 1;
+    padding: 7px 18px;
+    margin: 15;
+}
+
+.header__nav_logo:hover {
+    color: #fff;
+}
+
+.header__nav_span {
+    color: ;
+   justify-content: left;
+}
+
+.header__list_link {
+    font-family: 'ProductSans';
+    font-size: 35px;
+    color: #fff;
+   text-transform: uppercase;
+
+  justify-content: right;
+
+
+
+
+
+
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 185px;
+    height: 50px;
+    font-family: open sans,sans-serif;
+    font-size: 19px;
+    font-weight: 780;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: #f86c02;
+    transition: .5s;
+    color: #fff;
+    background: #ff6f02;
+    background: -moz-linear-gradient(top,#ff6f02 1%,#ef6701 93%,#c55500 93%);
+    background: -webkit-linear-gradient(top,#ff6f02 1%,#ef6701 93%,#c55500 93%);
+    background: linear-gradient(to bottom,#ff6f02 1%,#ef6701 93%,#c55500 93%);
+    border-radius: 20px;
+    box-shadow: 0 19px 15px 0 rgb(242 105 1 / 33%);
+    border-top: 1px solid #ffbd8b;
+    border-bottom: 1px solid #ee6802;
+
+
+
+
+
+
+
+
+
+    
+}
+
+.header__list_link:hover {
+    color: #ffcb02;
+}
+
+.header__list.navbar-nav .nav-link {
+    padding: 1px;
+    display: flex;
+    margin-left: 11px;
+    margin: 15;
+    justify-content: center;
+    
+}
+
+.header {
+   background: #1a1c21;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.haader__title {
+    font-size: 60px;
+    color: ;
+    font-family: 'ProductSans';
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+.header__description {
+    line-height: 27px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ProductSans';
+
+}
+
+.header__content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+/* =================== /header ========================= */
+
+/* =========== main =========== */
+
+/* <section class="main-history"> */
+.main-history {
+    background: #282929;
+    padding: 60px 0;
+}
+
+.main-history__title {
+    color: #d2a90b;
+    font-size: 28px;
+    font-family: 'ProductSans';
+    text-transform: uppercase;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+margin-bottom: 30px;
+}
+.main-history__title::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin-left: auto;
+    margin-bottom: 9px;
+}
+.main-history__title::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin-top: 9px;
+
+}
+
+.main-history__description {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Montserrat-Regular';
+    line-height: 26px;
+    text-align: justify;
+}
+
+/* </section class="main-history"> */
+
+/* <section class="main-slider"> */
+.main-slider{
+    background: #1f2020;
+    padding: 15px 0;
+}
+.main-slider__content_title{
+    font-size: 24px;
+    color: #fafafa;
+    font-family: Montserrat-Bold;
+    line-height:18px ;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.main-slider__content_span{
+    color:#d3a90b ;
+}
+.main-slider__content_description{
+    font-family: 'Montserrat-Bold' ;
+    font-size: 18px;
+    color: #fff;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+.main-slider__content{
+    padding: 15 0;
+}
+.main-slider__controls{
+    width: max-content;
+}
+.main-slider__controls_left{
+    font-size: 30px;
+    color: white;
+}
+.main-slider__controls_right{
+    font-size: 30px;
+    color: white;
+}
+.main-slider__controls_left::after{
+    color: #a5a6a6;
+}
+.main-slider__controls_right::after{
+    color: #a5a6a6;
+}
+.main-slider__controls_left::before{
+    color: #ffcb02;
+}
+.main-slider__controls_right::before{
+    color: #ffcb02;
+}
+
+/* </section class="main-slider"> */
+/* </section class="work"> */
+
+.work{
+    background:#1f2020 ;
+    display: flex;
+    align-items: center;
+    padding: 23px 0;
+    margin-left: 110px 0 ; 
+}
+
+
+
+
+
+
+
+
+
+/* </section class="work"> */
+/* =========== /main =========== */
+
+
+
+
+
+
+
+
+
